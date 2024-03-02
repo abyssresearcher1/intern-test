@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #101820;
+}
+
+h1 {
+  padding: 10px 0px 10px 0px;
+}
+
+header {
+  background-color: #101820;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fee715;
+}
+
+.header-general {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.update {
+  padding: 10px;
+  width: 160px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fee715;
+  border: 1px solid #fee715;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchImg {
+  width: 32px;
+  height: 32px;
+}
+
+.input-search {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #fee715;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fee715;
+}
+
+.users-root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+  gap: 20px;
+}
+
+.userCard {
+  width: 30%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fee715;
+  font-size: 18px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fee715;
+}
+
+.user-info {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.user-info p {
+  color: white;
+}
