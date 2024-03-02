@@ -24,6 +24,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 20%;
+  padding-top: 2%;
 }
 
 .update {
@@ -37,6 +38,7 @@ header {
   border-radius: 15px;
   background-color: transparent;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .search {
@@ -93,4 +95,70 @@ header {
 
 .user-info p {
   color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-general {
+    margin-left: 3%;
+  }
+
+  .user-info {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-general {
+    margin-left: 5%;
+  }
+
+  .user-info {
+    font-size: 15px;
+
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-general {
+    margin-left: 0;
+    gap: 12%;
+  }
+
+  .userCard {
+    width: 40%;
+  }
+
+  .input-search {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-general {
+    gap: 5%;
+  }
+
+  .user-info {
+    font-size: 13px;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-general {
+    flex-direction: column;
+  }
+  .users-root {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userCard {
+    width: 90%;
+  }
+
+  .user-info {
+    font-size: 16px;
+  }
 }
